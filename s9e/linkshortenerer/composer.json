@@ -1,0 +1,19 @@
+{
+	"name": "s9e/linkshortenerer",
+	"type": "phpbb-extension",
+	"description": "Shortens links to this forum, or maybe not this forum but close enough.",
+	"homepage": "https://github.com/s9e/phpbb-ext-link-shortenerer/",
+	"version": "1.0.0",
+	"keywords": ["phpbb"],
+	"license": "MIT",
+	"require": {
+		"php": ">=7.3.1"
+	},
+	"authors": [{ "name": "JoshyPHP" }],
+	"extra": {
+		"display-name": "s9e/link-shortenerer",
+		"soft-require": {
+			"phpbb/phpbb": "3.3.0"
+		}
+	}
+}

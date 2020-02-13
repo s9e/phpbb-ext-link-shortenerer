@@ -1,0 +1,7 @@
+services:
+  s9e.linkshortenerer.listener:
+    class: s9e\linkshortenerer\listener
+    arguments:
+      - '@config'
+    tags:
+      - { name: event.listener }
