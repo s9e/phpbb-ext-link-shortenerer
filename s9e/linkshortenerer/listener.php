@@ -20,7 +20,7 @@ class listener implements EventSubscriberInterface
 		              . preg_quote($config['server_name'], '/')
 		              . '(?::\\d++)?'
 		              . preg_quote(rtrim($config['script_path'], '/'), '/')
-		              . '\\//';
+		              . '\\//i';
 	}
 
 	public static function getSubscribedEvents()
